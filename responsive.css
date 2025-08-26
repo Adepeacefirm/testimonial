@@ -1,0 +1,63 @@
+@media (min-width: 769px) {
+  .mobile-view {
+    display: none;
+  }
+  .desktop-view {
+    display: block;
+    width: 26%;
+    margin-block: 3rem;
+  }
+
+  body {
+    width: 95%;
+    margin-inline: auto;
+    align-items: stretch;
+    gap: 2rem;
+    /* height: 160vh; */
+  }
+
+  main {
+    /* display: grid;
+    grid-auto-flow: row; */
+    
+    /* grid-template-columns: 2fr 1fr; */
+    gap: 5px;
+    width: 100%;
+  }
+
+  .daniel-div {
+    /* width: 75%; */
+  }
+
+  .jonathan-div {
+    margin-block: 0;
+  }
+
+  .jeanette-div {
+    margin-block: 0;
+    /* padding-inline: 0; */
+  }
+
+  .patrick-div {
+    margin-block: 0;
+    padding-bottom: 0;
+  }
+
+  .first-main {
+    display: flex;
+    gap: 1.5rem;
+    /* grid-auto-flow: column; */
+    /* grid-template-columns: 2fr 1fr; */
+    /* align-items: center; */
+    /* margin: 0px; */
+    /* align-items: stretch; */
+  }
+
+  .second-main {
+    display: flex;
+    gap: 1.5rem;
+    /* align-items: center; */
+    margin-top: 2rem;
+    /* grid-template-columns: 1fr 2fr; */
+  }
+}
