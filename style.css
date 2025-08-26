@@ -15,23 +15,8 @@ body {
   font-family: "Barlow Semi Condensed", sans-serif;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   background: linear-gradient(to right, #ecf2f8 0%, #dbe3ea 100%);
   position: relative;
-}
-
-body::before {
-  content: "";
-  position: absolute;
-  top: 12%;
-  left: 30%;
-  transform: translate(-50%, -50%);
-  background: url("./images/bg-pattern-quotation.svg") no-repeat center center;
-  background-size: contain;
-  opacity: 0.5;
-  z-index: 0;
-  width: 100px;
-  height: 150px;
 }
 
 main {
@@ -39,206 +24,64 @@ main {
   width: 80%;
 }
 
-.daniel-div {
+.testimony {
+  margin-block: 2.5rem;
+  padding-inline: 1.9rem;
   padding-block: 2rem;
-  padding-inline: 2rem;
-  background-color: #6d28d9;
-  color: white;
   border-radius: 10px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
-.daniel-img {
+.img-div {
   display: flex;
   align-items: center;
   gap: 1rem;
   padding-block: 1rem;
-  /* font-weight: 400; */
 }
 
-#daniel-p {
-  margin-bottom: 0.5rem;
-  font-size: 1.3rem;
-  font-weight: 400;
-}
-
-.daniel-img img {
+.img-div img {
   border-radius: 50%;
-  outline: white;
-  /* width: 17%; */
+  outline: 2px solid white;
 }
 
-#received {
-  font-weight: 400;
+.name {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.daniel-div {
+  background-color: #6d28d9;
+  padding-block: 2rem;
+  padding-inline: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.topic {
+  font-weight: 500;
   padding-bottom: 1rem;
   font-size: 1.5rem;
 }
 
-#emt {
+.review {
   font-weight: 200;
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1.3rem;
 }
 
 .jonathan-div {
   background-color: hsl(219, 19%, 35%);
-  margin-block: 2.5rem;
-  padding-inline: 1.9rem;
-  padding-block: 2rem;
-  border-radius: 10px;
   color: white;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
-.jonathan-img {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  color: white;
-  padding-bottom: 2rem;
-}
-
-.jonathan-img img {
-  border-radius: 50%;
-  outline: 2px solid white;
-}
-
-#jonathan-p {
-  margin-bottom: 0.5rem;
-  font-size: 1.3rem;
-  font-weight: 400;
-}
-
-#team {
-  font-weight: 400;
-  padding-bottom: 1rem;
-  font-size: 1.5rem;
-}
-
-#started {
-  font-weight: 200;
-  font-size: 1rem;
-  line-height: 1.3rem;
-}
-
-.jeanette-div {
+.jeanette-div, .kira-div {
   background-color: white;
-  margin-block: 2.5rem;
-  padding-inline: 2rem;
-  padding-block: 2rem;
-  border-radius: 10px;
   color: black;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-}
-
-.jeanette-img {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  color: black;
-  padding-bottom: 2rem;
-}
-
-.jeanette-img img {
-  border-radius: 50%;
-  outline: 2px solid white;
-}
-
-#jeanette-p {
-  margin-bottom: 0.5rem;
-  font-size: 1.1rem;
-  font-weight: 600;
-}
-
-#overall {
-  font-weight: 600;
-  padding-bottom: 1rem;
-  font-size: 1.5rem;
-}
-
-#thank {
-  font-weight: 200;
-  font-size: 1rem;
-  line-height: 1.3rem;
 }
 
 .patrick-div {
   background-color: hsl(222, 29%, 14%);
-  margin-block: 2.5rem;
-  padding-inline: 1.9rem;
-  padding-block: 2rem;
-  border-radius: 10px;
   color: white;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-}
-
-.patrick-img {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  color: white;
-  padding-bottom: 2rem;
-}
-
-.patrick-img img {
-  border-radius: 50%;
-  outline: 2px solid white;
-}
-
-#patrick-p {
-  margin-bottom: 0.5rem;
-  font-size: 1.3rem;
-  font-weight: 400;
-}
-
-#awesome {
-  font-weight: 400;
-  padding-bottom: 1rem;
-  font-size: 1.5rem;
-}
-
-#staff {
-  font-weight: 200;
-  font-size: 1rem;
-  line-height: 1.3rem;
-}
-.kira-div {
-  background-color: white;
-  margin-block: 2.5rem;
-  padding-inline: 1.9rem;
-  padding-block: 2rem;
-  border-radius: 10px;
-  color: black;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-}
-
-.kira-img {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  color: black;
-  padding-bottom: 2rem;
-}
-
-.kira-img img {
-  border-radius: 50%;
-  outline: 2px solid black;
-}
-
-#kira-p {
-  margin-bottom: 0.5rem;
-  font-size: 1.3rem;
-  font-weight: 400;
-}
-
-#such {
-  font-weight: 400;
-  padding-bottom: 1rem;
-  font-size: 1.5rem;
-}
-
-#before {
-  font-weight: 200;
-  font-size: 1rem;
-  line-height: 1.3rem;
 }
