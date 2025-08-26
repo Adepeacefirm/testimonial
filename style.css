@@ -17,6 +17,21 @@ body {
   justify-content: center;
   /* align-items: center; */
   background: linear-gradient(to right, #ecf2f8 0%, #dbe3ea 100%);
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 12%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  background: url("./images/bg-pattern-quotation.svg") no-repeat center center;
+  background-size: contain;
+  opacity: 0.5;
+  z-index: 0;
+  width: 100px;
+  height: 150px;
 }
 
 main {
